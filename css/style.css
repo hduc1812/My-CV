@@ -305,13 +305,6 @@ a:focus {
         border-image-source: linear-gradient(to left, #ec2f4b, #009fff);
     }
 
-    /* .navbar-light .navbar-toggler:focus-visible {
-        outline: none;
-        background: linear-gradient(to right, #ec2f4b, #009fff); 
-        border: 2px solid;
-        border-radius: 10px;
-    } */
-
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0,0,0);
     }
