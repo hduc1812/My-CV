@@ -305,19 +305,21 @@ a:focus {
         border-image-source: linear-gradient(to left, #ec2f4b, #009fff);
     }
 
-    .navbar-light .navbar-toggler:focus{
+    /* .navbar-light .navbar-toggler:focus-visible {
         outline: none;
         background: linear-gradient(to right, #ec2f4b, #009fff); 
         border: 2px solid;
         border-radius: 10px;
-    }
+    } */
 
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0,0,0);
     }
+    
+    .navbar-light .navbar-nav .nav-link.active,
     .navbar-light .navbar-nav .nav-link:focus{
         background: #009FFF;  
-        background: linear-gradient(to left, #ec2F4B 80%, #009FFF); 
+        background: linear-gradient(to left, #ec2F4B 85%, #009FFF); 
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

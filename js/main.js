@@ -53,6 +53,7 @@
                 $('.navbar-nav .active').removeClass('active');
                 $(this).closest('a').addClass('active');
             }
+
         }
     });
     
@@ -109,7 +110,14 @@
             $('#navbar-brand').removeClass('navbar-brand-hover');
         }
     });
-
+    
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 0) {
+    //         $('#navbar-toggler').addClass('navbar-brand-hover');
+    //     } else {
+    //         $('#navbar-brand').removeClass('navbar-brand-hover');
+    //     }
+    // });
 
 })(jQuery);
 
