@@ -301,10 +301,17 @@ a:focus {
     }
     .navbar-light .navbar-toggler {
         color: #ffffff;
-        border-image-slice: 1;
-        border-image-source: linear-gradient(to left, #ec2f4b, #009fff);
+        border: 2px solid;
+        border-color: #009fff;
+        transition: 0.5s;
     }
-
+    .navbar-light .navbar-toggler:focus,
+    .navbar-light .navbar-toggler:focus-visible{
+        color: #ffffff;
+        border: 2px solid;
+        border-color: #ec2f4b;
+        transition: 0.5s;
+    }
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0,0,0);
     }
