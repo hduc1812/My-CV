@@ -305,6 +305,7 @@ a:focus {
         border-color: #009fff;
         transition: 0.5s;
     }
+    
     .navbar-light .navbar-toggler:focus,
     .navbar-light .navbar-toggler:focus-visible{
         color: #ffffff;
