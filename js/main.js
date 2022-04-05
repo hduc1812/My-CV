@@ -111,13 +111,6 @@
         }
     });
     
-    // $(window).scroll(function () {
-    //     if ($(this).scrollTop() > 0) {
-    //         $('#navbar-toggler').addClass('navbar-brand-hover');
-    //     } else {
-    //         $('#navbar-brand').removeClass('navbar-brand-hover');
-    //     }
-    // });
 
 })(jQuery);
 
