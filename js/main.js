@@ -30,12 +30,12 @@
     });
     
     
-    // Sticky Navbar
+    // shrink Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
-            $('.navbar').addClass('nav-sticky');
+            $('.navbar').addClass('nav-shrink');
         } else {
-            $('.navbar').removeClass('nav-sticky');
+            $('.navbar').removeClass('nav-shrink');
         }
     });
     
